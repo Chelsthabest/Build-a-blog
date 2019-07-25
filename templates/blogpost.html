@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+<head>
+    <title>{{title}}</title>
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+    
+{% block content %}
+    <h1>{{posts.title}}</h1>
+    <p>{{posts.body}}</p>
+    
+{% endblock %}
